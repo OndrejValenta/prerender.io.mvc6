@@ -1,0 +1,15 @@
+﻿{
+	"PrerenderConfiguration": {
+		"PrerenderServiceUrl": "test - PrerenderServiceUrl",
+		"StripApplicationNameFromRequestUrl": true,
+		"Whitelist": [ "Whitelist1", "Whitelist2", "Whitelist3" ],
+		"Blacklist": [ "Blacklist1", "Blacklist2", "Blacklist3" ],
+		"ExtensionsToIgnore": [ "ExtensionsToIgnore1", "ExtensionsToIgnore2", "ExtensionsToIgnore3" ],
+		"CrawlerUserAgents": [ "CrawlerUserAgents1", "CrawlerUserAgents2", "CrawlerUserAgents3" ],
+		"Proxy": {
+			"Url": "Proxy URL",
+			"Port": "90"
+		},
+		"Token": "test - Token"
+	}
+}

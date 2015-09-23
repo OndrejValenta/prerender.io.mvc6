@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48AE6033-46B4-4791-8513-32A3DC30678C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1780929D-8451-426C-B953-A0AA0A09A131}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Prerender.io.mvc6.TestWeb", "src\Prerender.io.mvc6.TestWeb\Prerender.io.mvc6.TestWeb.xproj", "{152421EB-78F0-4549-A98B-0854C9B81558}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Prerender.io.mvc6", "src\Prerender.io.mvc6\Prerender.io.mvc6.xproj", "{E2BB966F-A244-44B5-8A45-B15586E5E67F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{152421EB-78F0-4549-A98B-0854C9B81558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152421EB-78F0-4549-A98B-0854C9B81558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152421EB-78F0-4549-A98B-0854C9B81558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152421EB-78F0-4549-A98B-0854C9B81558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2BB966F-A244-44B5-8A45-B15586E5E67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BB966F-A244-44B5-8A45-B15586E5E67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BB966F-A244-44B5-8A45-B15586E5E67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BB966F-A244-44B5-8A45-B15586E5E67F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{152421EB-78F0-4549-A98B-0854C9B81558} = {48AE6033-46B4-4791-8513-32A3DC30678C}
+		{E2BB966F-A244-44B5-8A45-B15586E5E67F} = {48AE6033-46B4-4791-8513-32A3DC30678C}
+	EndGlobalSection
+EndGlobal
